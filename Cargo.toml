@@ -1,0 +1,11 @@
+[package]
+name = "smallo"
+version = "0.0.1"
+authors = ["Viktor A. Rozenko Voitenko <sharp.vik@gmail.com>"]
+edition = "2018"
+description = "Assemble and run SmallO code"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/smallo-lang/SmallO/"
+
+[dependencies]
