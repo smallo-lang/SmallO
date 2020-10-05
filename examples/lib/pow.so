@@ -1,0 +1,17 @@
+@ n^2 = n * n
+@ ==============================================================================
+@ n <- number which we will square
+@ s -> square of n
+sqr:
+  mul n n s
+  back
+
+
+@ n^3 = n * n * n
+@ ==============================================================================
+@ n <- number which we will cube
+@ c -> cube of n
+cube:
+  mul n n c
+  mul c n c
+  back

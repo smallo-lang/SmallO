@@ -1,0 +1,9 @@
+  out "Input your age: "
+  ini age
+
+  lth age 18 b  @ if age < 18:
+  jmpf b exit   @     exit()
+
+  outl "You're a minor"
+
+exit:

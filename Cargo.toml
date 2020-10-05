@@ -9,3 +9,4 @@ license = "MIT"
 repository = "https://github.com/smallo-lang/SmallO/"
 
 [dependencies]
+idioma = "*"

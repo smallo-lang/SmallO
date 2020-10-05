@@ -1,0 +1,4 @@
+start:
+  out "I love pizza!"
+  jump start
+

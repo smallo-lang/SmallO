@@ -1,0 +1,21 @@
+@ n! = 1 x 2 x 3 x ... x n
+@ ==============================================================================
+@ n <- number from which we derive factorial
+@ b :: boolean storage
+@ f -> factorial of n
+factorial:
+  lth n 1 b
+  jmpt b factorial_back
+
+  put n f
+  
+factorial_while:
+  gth n 1 b
+  jmpf b factorial_back
+
+  sub n 1 n
+  mul f n f
+  jump factorial_while
+
+factorial_back:
+  back

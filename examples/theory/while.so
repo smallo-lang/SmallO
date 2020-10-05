@@ -1,0 +1,13 @@
+  put 1 i       @ variable creation
+
+check:
+  leq i 5 b     @ comparison
+  jmpf b exit   @ break if it fails
+
+  @ while loop body
+  con i " time(s)" msg
+  outl msg
+  add i 1 i     @ step
+  jump check    @ jump back to check
+
+exit:

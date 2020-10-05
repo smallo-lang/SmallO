@@ -1,0 +1,15 @@
+  jump main
+
+@ import factorial library
+>"../lib/factorial.so"
+
+main:
+  out "Input your age: \n"
+  ini n
+  sub 2020 n e
+  out "You were born in "
+  outl e
+
+  out "The factorial of your age is "
+  br factorial
+  outl f
