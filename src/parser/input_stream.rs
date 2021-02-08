@@ -71,6 +71,7 @@ impl<R: Read> InputStream<R> {
 #[cfg(test)]
 mod input_stream_tests {
     use super::*;
+    use std::io;
 
     fn is_space(byte: u8) -> bool { byte == b' ' }
     fn is_letter(byte: u8) -> bool { b'a' <= byte && byte <= b'z' }
